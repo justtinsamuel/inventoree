@@ -3,6 +3,7 @@ const brandsController = require("./brandsController");
 const itemsController = require("./itemsController");
 const rolesController = require("./rolesController");
 const transactionsController = require("./transactionsController");
+const TransactionItemController = require("./transactionItemController");
 const typesController = require("./typesController");
 const usersController = require("./usersController");
 
@@ -12,6 +13,7 @@ module.exports = {
   itemsController,
   rolesController,
   transactionsController,
+  TransactionItemController,
   typesController,
   usersController,
 };
